@@ -5,7 +5,7 @@ const connectDB = async () => {
     console.log("✅ Successfully Connected to Database.")
   })
 }
-mongoose.set("strictQuery", true)
+
 connectDB().catch(err => console.log(err))
 
 
